@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040624E82276FC120000FB5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040624E72276FC120000FB5B /* AppDelegate.m */; };
+		040624EB2276FC120000FB5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040624EA2276FC120000FB5B /* ViewController.m */; };
+		040624EE2276FC120000FB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040624EC2276FC120000FB5B /* Main.storyboard */; };
+		040624F02276FC130000FB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040624EF2276FC130000FB5B /* Assets.xcassets */; };
+		040624F32276FC130000FB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040624F12276FC130000FB5B /* LaunchScreen.storyboard */; };
+		040624F62276FC130000FB5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040624F52276FC130000FB5B /* main.m */; };
+		0406DD4E22781C650010AA3E /* FFPopAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406DD4D22781C650010AA3E /* FFPopAlert.m */; };
+		0406DD5222781F350010AA3E /* KLCPopupUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406DD5122781F350010AA3E /* KLCPopupUtils.m */; };
+		2BC0C92DE0EB881A0ED9B0AB /* libPods-FF_PopAlertViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6058BB2EFCD7ED0C1F34387 /* libPods-FF_PopAlertViewUITests.a */; };
+		5FE67CC194EAD9BA70DF3287 /* libPods-FF_PopAlertViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D517E803DE15D68D3D27B5C0 /* libPods-FF_PopAlertViewTests.a */; };
+		F39D94F9899D8490E0E2F7AB /* libPods-FF_PopAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA56E71C8B13D9562D6C6204 /* libPods-FF_PopAlertView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040624FC2276FC130000FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040624DB2276FC120000FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040624E22276FC120000FB5B;
+			remoteInfo = FF_PopAlertView;
+		};
+		040625072276FC130000FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040624DB2276FC120000FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040624E22276FC120000FB5B;
+			remoteInfo = FF_PopAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040624E32276FC120000FB5B /* FF_PopAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_PopAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040624E62276FC120000FB5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040624E72276FC120000FB5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040624E92276FC120000FB5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040624EA2276FC120000FB5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040624ED2276FC120000FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040624EF2276FC130000FB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040624F22276FC130000FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040624F42276FC130000FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040624F52276FC130000FB5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040624FB2276FC130000FB5B /* FF_PopAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_PopAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040625062276FC130000FB5B /* FF_PopAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_PopAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0406DD4C22781C650010AA3E /* FFPopAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPopAlert.h; sourceTree = "<group>"; };
+		0406DD4D22781C650010AA3E /* FFPopAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPopAlert.m; sourceTree = "<group>"; };
+		0406DD5022781F350010AA3E /* KLCPopupUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLCPopupUtils.h; sourceTree = "<group>"; };
+		0406DD5122781F350010AA3E /* KLCPopupUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLCPopupUtils.m; sourceTree = "<group>"; };
+		34936D439DFDBDC9DCD0A21F /* Pods-FF_PopAlertViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_PopAlertViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_PopAlertViewTests/Pods-FF_PopAlertViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A65AA20C5DBC45B056557A8 /* Pods-FF_PopAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_PopAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_PopAlertView/Pods-FF_PopAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		4682F36D2738D65DD6D7E000 /* Pods-FF_PopAlertViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_PopAlertViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_PopAlertViewTests/Pods-FF_PopAlertViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF7D3E92ADE61E73B78DDE5 /* Pods-FF_PopAlertViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_PopAlertViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_PopAlertViewUITests/Pods-FF_PopAlertViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6058BB2EFCD7ED0C1F34387 /* libPods-FF_PopAlertViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_PopAlertViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D517E803DE15D68D3D27B5C0 /* libPods-FF_PopAlertViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_PopAlertViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA56E71C8B13D9562D6C6204 /* libPods-FF_PopAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_PopAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020876F547B2F191F62766F /* Pods-FF_PopAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_PopAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_PopAlertView/Pods-FF_PopAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		E4ECB762071D760D37EBEFC4 /* Pods-FF_PopAlertViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_PopAlertViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_PopAlertViewUITests/Pods-FF_PopAlertViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040624E02276FC120000FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39D94F9899D8490E0E2F7AB /* libPods-FF_PopAlertView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040624F82276FC130000FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE67CC194EAD9BA70DF3287 /* libPods-FF_PopAlertViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040625032276FC130000FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC0C92DE0EB881A0ED9B0AB /* libPods-FF_PopAlertViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040624DA2276FC120000FB5B = {
+			isa = PBXGroup;
+			children = (
+				040624E52276FC120000FB5B /* FF_PopAlertView */,
+				040624E42276FC120000FB5B /* Products */,
+				BED97EFC0E752EF4214BF9A4 /* Pods */,
+				B59E8934324C3505F5821882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040624E42276FC120000FB5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040624E32276FC120000FB5B /* FF_PopAlertView.app */,
+				040624FB2276FC130000FB5B /* FF_PopAlertViewTests.xctest */,
+				040625062276FC130000FB5B /* FF_PopAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040624E52276FC120000FB5B /* FF_PopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				0406DD4B22781C650010AA3E /* FFPopAlert */,
+				0406DD4F22781F0A0010AA3E /* KLCPopupUtils */,
+				040624E62276FC120000FB5B /* AppDelegate.h */,
+				040624E72276FC120000FB5B /* AppDelegate.m */,
+				040624E92276FC120000FB5B /* ViewController.h */,
+				040624EA2276FC120000FB5B /* ViewController.m */,
+				040624EC2276FC120000FB5B /* Main.storyboard */,
+				040624EF2276FC130000FB5B /* Assets.xcassets */,
+				040624F12276FC130000FB5B /* LaunchScreen.storyboard */,
+				040624F42276FC130000FB5B /* Info.plist */,
+				040624F52276FC130000FB5B /* main.m */,
+			);
+			path = FF_PopAlertView;
+			sourceTree = "<group>";
+		};
+		0406DD4B22781C650010AA3E /* FFPopAlert */ = {
+			isa = PBXGroup;
+			children = (
+				0406DD4C22781C650010AA3E /* FFPopAlert.h */,
+				0406DD4D22781C650010AA3E /* FFPopAlert.m */,
+			);
+			path = FFPopAlert;
+			sourceTree = "<group>";
+		};
+		0406DD4F22781F0A0010AA3E /* KLCPopupUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0406DD5022781F350010AA3E /* KLCPopupUtils.h */,
+				0406DD5122781F350010AA3E /* KLCPopupUtils.m */,
+			);
+			path = KLCPopupUtils;
+			sourceTree = "<group>";
+		};
+		B59E8934324C3505F5821882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA56E71C8B13D9562D6C6204 /* libPods-FF_PopAlertView.a */,
+				D517E803DE15D68D3D27B5C0 /* libPods-FF_PopAlertViewTests.a */,
+				A6058BB2EFCD7ED0C1F34387 /* libPods-FF_PopAlertViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED97EFC0E752EF4214BF9A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E020876F547B2F191F62766F /* Pods-FF_PopAlertView.debug.xcconfig */,
+				3A65AA20C5DBC45B056557A8 /* Pods-FF_PopAlertView.release.xcconfig */,
+				4682F36D2738D65DD6D7E000 /* Pods-FF_PopAlertViewTests.debug.xcconfig */,
+				34936D439DFDBDC9DCD0A21F /* Pods-FF_PopAlertViewTests.release.xcconfig */,
+				5AF7D3E92ADE61E73B78DDE5 /* Pods-FF_PopAlertViewUITests.debug.xcconfig */,
+				E4ECB762071D760D37EBEFC4 /* Pods-FF_PopAlertViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040624E22276FC120000FB5B /* FF_PopAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0406250F2276FC130000FB5B /* Build configuration list for PBXNativeTarget "FF_PopAlertView" */;
+			buildPhases = (
+				0C55023606110820CAA517D7 /* [CP] Check Pods Manifest.lock */,
+				040624DF2276FC120000FB5B /* Sources */,
+				040624E02276FC120000FB5B /* Frameworks */,
+				040624E12276FC120000FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FF_PopAlertView;
+			productName = FF_PopAlertView;
+			productReference = 040624E32276FC120000FB5B /* FF_PopAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040624FA2276FC130000FB5B /* FF_PopAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040625122276FC130000FB5B /* Build configuration list for PBXNativeTarget "FF_PopAlertViewTests" */;
+			buildPhases = (
+				A3D57486B006A5754C0EF15B /* [CP] Check Pods Manifest.lock */,
+				040624F72276FC130000FB5B /* Sources */,
+				040624F82276FC130000FB5B /* Frameworks */,
+				040624F92276FC130000FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040624FD2276FC130000FB5B /* PBXTargetDependency */,
+			);
+			name = FF_PopAlertViewTests;
+			productName = FF_PopAlertViewTests;
+			productReference = 040624FB2276FC130000FB5B /* FF_PopAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040625052276FC130000FB5B /* FF_PopAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040625152276FC130000FB5B /* Build configuration list for PBXNativeTarget "FF_PopAlertViewUITests" */;
+			buildPhases = (
+				12848F116FA15F453491D46B /* [CP] Check Pods Manifest.lock */,
+				040625022276FC130000FB5B /* Sources */,
+				040625032276FC130000FB5B /* Frameworks */,
+				040625042276FC130000FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040625082276FC130000FB5B /* PBXTargetDependency */,
+			);
+			name = FF_PopAlertViewUITests;
+			productName = FF_PopAlertViewUITests;
+			productReference = 040625062276FC130000FB5B /* FF_PopAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040624DB2276FC120000FB5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = healifeGroup;
+				TargetAttributes = {
+					040624E22276FC120000FB5B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					040624FA2276FC130000FB5B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 040624E22276FC120000FB5B;
+					};
+					040625052276FC130000FB5B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 040624E22276FC120000FB5B;
+					};
+				};
+			};
+			buildConfigurationList = 040624DE2276FC120000FB5B /* Build configuration list for PBXProject "FF_PopAlertView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040624DA2276FC120000FB5B;
+			productRefGroup = 040624E42276FC120000FB5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040624E22276FC120000FB5B /* FF_PopAlertView */,
+				040624FA2276FC130000FB5B /* FF_PopAlertViewTests */,
+				040625052276FC130000FB5B /* FF_PopAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040624E12276FC120000FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040624F32276FC130000FB5B /* LaunchScreen.storyboard in Resources */,
+				040624F02276FC130000FB5B /* Assets.xcassets in Resources */,
+				040624EE2276FC120000FB5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040624F92276FC130000FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040625042276FC130000FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C55023606110820CAA517D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_PopAlertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12848F116FA15F453491D46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_PopAlertViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D57486B006A5754C0EF15B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_PopAlertViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040624DF2276FC120000FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040624EB2276FC120000FB5B /* ViewController.m in Sources */,
+				0406DD5222781F350010AA3E /* KLCPopupUtils.m in Sources */,
+				040624F62276FC130000FB5B /* main.m in Sources */,
+				0406DD4E22781C650010AA3E /* FFPopAlert.m in Sources */,
+				040624E82276FC120000FB5B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040624F72276FC130000FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040625022276FC130000FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040624FD2276FC130000FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040624E22276FC120000FB5B /* FF_PopAlertView */;
+			targetProxy = 040624FC2276FC130000FB5B /* PBXContainerItemProxy */;
+		};
+		040625082276FC130000FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040624E22276FC120000FB5B /* FF_PopAlertView */;
+			targetProxy = 040625072276FC130000FB5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040624EC2276FC120000FB5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040624ED2276FC120000FB5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040624F12276FC130000FB5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040624F22276FC130000FB5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0406250D2276FC130000FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0406250E2276FC130000FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040625102276FC130000FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E020876F547B2F191F62766F /* Pods-FF_PopAlertView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTRXQ7GTRW;
+				INFOPLIST_FILE = FF_PopAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-PopAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040625112276FC130000FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A65AA20C5DBC45B056557A8 /* Pods-FF_PopAlertView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTRXQ7GTRW;
+				INFOPLIST_FILE = FF_PopAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-PopAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040625132276FC130000FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4682F36D2738D65DD6D7E000 /* Pods-FF_PopAlertViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_PopAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-PopAlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF_PopAlertView.app/FF_PopAlertView";
+			};
+			name = Debug;
+		};
+		040625142276FC130000FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34936D439DFDBDC9DCD0A21F /* Pods-FF_PopAlertViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_PopAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-PopAlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF_PopAlertView.app/FF_PopAlertView";
+			};
+			name = Release;
+		};
+		040625162276FC130000FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF7D3E92ADE61E73B78DDE5 /* Pods-FF_PopAlertViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_PopAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-PopAlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FF_PopAlertView;
+			};
+			name = Debug;
+		};
+		040625172276FC130000FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4ECB762071D760D37EBEFC4 /* Pods-FF_PopAlertViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_PopAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-PopAlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FF_PopAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040624DE2276FC120000FB5B /* Build configuration list for PBXProject "FF_PopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0406250D2276FC130000FB5B /* Debug */,
+				0406250E2276FC130000FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0406250F2276FC130000FB5B /* Build configuration list for PBXNativeTarget "FF_PopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040625102276FC130000FB5B /* Debug */,
+				040625112276FC130000FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040625122276FC130000FB5B /* Build configuration list for PBXNativeTarget "FF_PopAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040625132276FC130000FB5B /* Debug */,
+				040625142276FC130000FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040625152276FC130000FB5B /* Build configuration list for PBXNativeTarget "FF_PopAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040625162276FC130000FB5B /* Debug */,
+				040625172276FC130000FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040624DB2276FC120000FB5B /* Project object */;
+}
